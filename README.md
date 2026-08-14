@@ -87,6 +87,19 @@ RGB output is only enabled after the verified model query reports:
 
 No unverified HID commands or firmware modifications are used.
 
+## Installation
+
+1. Download the latest plugin ZIP release.
+2. Open Artemis.
+3. Go to **Settings → Plugins → Import plugin**.
+4. Select the downloaded ZIP file.
+5. Restart Artemis once after the first installation.
+6. The LEOBOG Hi75C Pro should appear under **Settings → Devices**.
+
+The restart is only required after the initial plugin installation. Normal
+plugin Enable/Disable and USB reconnect operations do not require restarting
+Artemis.
+
 ## USB reconnect
 
 If the keyboard is unplugged while Artemis is running, the plugin:
