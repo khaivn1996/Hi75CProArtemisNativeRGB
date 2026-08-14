@@ -5,7 +5,7 @@
   "Author": "KhaiIT",
   "Website": "",
   "Repository": "https://github.com/khaivn1996/Hi75CProArtemisNativeRGB.git",
-  "Icon": "QuestionMark",
+  "Icon": "Keyboard",
   "Version": "1.0.0.0",
   "Main": "Artemis.Plugins.Devices.LeobogHi75CPro.dll",
   "AutoEnableProperties": true,

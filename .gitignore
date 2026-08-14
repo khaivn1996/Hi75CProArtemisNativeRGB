@@ -1,0 +1,42 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+@'
+# .NET build output
+bin/
+obj/
+artifacts/
+publish/
+dist/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.csproj.user
+
+# JetBrains
+.idea/
+
+# Test output
+TestResults/
+
+# Packages / release artifacts
+*.nupkg
+*.snupkg
+
+# Runtime / diagnostic logs
+*.log
+hi75c-phase-g.log
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Temporary files
+*.tmp
+*.bak
+*.old
+*~
+'@ | Set-Content .gitignore -Encoding UTF8

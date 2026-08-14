@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="512"
+     height="512"
+     viewBox="0 0 512 512"
+     role="img"
+     aria-labelledby="title desc">
+
+  <title id="title">Hi75C Pro Artemis Native RGB</title>
+  <desc id="desc">
+    Stylized 75 percent keyboard logo for the Hi75C Pro Artemis Native RGB project.
+  </desc>
+
+  <defs>
+    <linearGradient id="rgbGradient"
+                    x1="0"
+                    y1="0"
+                    x2="1"
+                    y2="1">
+      <stop offset="0%" stop-color="#ff4b5c"/>
+      <stop offset="48%" stop-color="#7c5cff"/>
+      <stop offset="100%" stop-color="#25d9f8"/>
+    </linearGradient>
+
+    <filter id="softGlow"
+            x="-50%"
+            y="-50%"
+            width="200%"
+            height="200%">
+      <feGaussianBlur stdDeviation="7"
+                      result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Transparent outside, self-contained dark badge inside -->
+  <rect x="28"
+        y="28"
+        width="456"
+        height="456"
+        rx="92"
+        fill="#15171c"/>
+
+  <!-- RGB accent -->
+  <rect x="28"
+        y="28"
+        width="456"
+        height="456"
+        rx="92"
+        fill="none"
+        stroke="url(#rgbGradient)"
+        stroke-width="8"
+        opacity="0.9"/>
+
+  <!-- Keyboard glow -->
+  <rect x="87"
+        y="104"
+        width="338"
+        height="203"
+        rx="29"
+        fill="none"
+        stroke="url(#rgbGradient)"
+        stroke-width="5"
+        opacity="0.28"
+        filter="url(#softGlow)"/>
+
+  <!-- Keyboard body -->
+  <rect x="87"
+        y="104"
+        width="338"
+        height="203"
+        rx="29"
+        fill="#20232a"
+        stroke="#747b8a"
+        stroke-width="3"/>
+
+  <!-- Row 1 -->
+  <g fill="#343943">
+    <rect x="108" y="126" width="27" height="27" rx="6"/>
+    <rect x="143" y="126" width="27" height="27" rx="6"/>
+    <rect x="178" y="126" width="27" height="27" rx="6"/>
+    <rect x="213" y="126" width="27" height="27" rx="6"/>
+    <rect x="248" y="126" width="27" height="27" rx="6"/>
+    <rect x="283" y="126" width="27" height="27" rx="6"/>
+    <rect x="318" y="126" width="27" height="27" rx="6"/>
+    <rect x="353" y="126" width="27" height="27" rx="6"/>
+    <rect x="388" y="126" width="16" height="27" rx="6"/>
+  </g>
+
+  <!-- Row 2 -->
+  <g fill="#343943">
+    <rect x="108" y="161" width="38" height="27" rx="6"/>
+    <rect x="154" y="161" width="27" height="27" rx="6"/>
+    <rect x="189" y="161" width="27" height="27" rx="6"/>
+    <rect x="224" y="161" width="27" height="27" rx="6"/>
+    <rect x="259" y="161" width="27" height="27" rx="6"/>
+    <rect x="294" y="161" width="27" height="27" rx="6"/>
+    <rect x="329" y="161" width="27" height="27" rx="6"/>
+    <rect x="364" y="161" width="40" height="27" rx="6"/>
+  </g>
+
+  <!-- Row 3 -->
+  <g fill="#343943">
+    <rect x="108" y="196" width="45" height="27" rx="6"/>
+    <rect x="161" y="196" width="27" height="27" rx="6"/>
+    <rect x="196" y="196" width="27" height="27" rx="6"/>
+    <rect x="231" y="196" width="27" height="27" rx="6"/>
+    <rect x="266" y="196" width="27" height="27" rx="6"/>
+    <rect x="301" y="196" width="27" height="27" rx="6"/>
+    <rect x="336" y="196" width="68" height="27" rx="6"/>
+  </g>
+
+  <!-- Row 4 -->
+  <g fill="#343943">
+    <rect x="108" y="231" width="56" height="27" rx="6"/>
+    <rect x="172" y="231" width="27" height="27" rx="6"/>
+    <rect x="207" y="231" width="27" height="27" rx="6"/>
+    <rect x="242" y="231" width="27" height="27" rx="6"/>
+    <rect x="277" y="231" width="27" height="27" rx="6"/>
+    <rect x="312" y="231" width="52" height="27" rx="6"/>
+
+    <!-- Arrow up -->
+    <rect x="373" y="231" width="27" height="27" rx="6"
+          fill="url(#rgbGradient)"/>
+  </g>
+
+  <!-- Bottom row -->
+  <g fill="#343943">
+    <rect x="108" y="266" width="34" height="22" rx="6"/>
+    <rect x="150" y="266" width="34" height="22" rx="6"/>
+    <rect x="192" y="266" width="34" height="22" rx="6"/>
+
+    <!-- Space -->
+    <rect x="234" y="266" width="91" height="22" rx="6"
+          fill="url(#rgbGradient)"/>
+
+    <rect x="333" y="266" width="31" height="22" rx="6"/>
+
+    <!-- Arrow cluster -->
+    <rect x="369" y="266" width="22" height="22" rx="6"
+          fill="url(#rgbGradient)"/>
+    <rect x="395" y="266" width="22" height="22" rx="6"
+          fill="url(#rgbGradient)"/>
+  </g>
+
+  <!-- Project mark -->
+  <text x="256"
+        y="374"
+        text-anchor="middle"
+        fill="#f4f5f7"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="70"
+        font-weight="800"
+        letter-spacing="3">
+    H75C
+  </text>
+
+  <rect x="143"
+        y="396"
+        width="226"
+        height="4"
+        rx="2"
+        fill="url(#rgbGradient)"/>
+
+  <text x="256"
+        y="430"
+        text-anchor="middle"
+        fill="#aeb4c0"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="18"
+        font-weight="600"
+        letter-spacing="2">
+    ARTEMIS NATIVE RGB
+  </text>
+</svg>

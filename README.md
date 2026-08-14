@@ -1,4 +1,12 @@
-﻿# LEOBOG Hi75C Pro — Artemis Native RGB
+﻿<p align="center">
+  <img
+    src="Assets/logo.svg"
+    width="240"
+    alt="LEOBOG Hi75C Pro Artemis Native RGB"
+  />
+</p>
+
+# LEOBOG Hi75C Pro — Artemis Native RGB
 
 Native wired USB RGB device support for the **LEOBOG Hi75C Pro** keyboard in [Artemis RGB](https://artemis-rgb.com/).
 

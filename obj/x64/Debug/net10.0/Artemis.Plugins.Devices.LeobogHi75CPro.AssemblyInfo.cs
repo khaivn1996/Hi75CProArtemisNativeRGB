@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Artemis.Plugins.Devices.LeobogHi75CPro")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8ff2a52ab5198a2635a2b182a08a5a6dabcf5c58")]
 [assembly: System.Reflection.AssemblyProductAttribute("Artemis.Plugins.Devices.LeobogHi75CPro")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Artemis.Plugins.Devices.LeobogHi75CPro")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
