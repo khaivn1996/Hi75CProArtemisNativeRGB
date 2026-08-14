@@ -1,0 +1,6 @@
+C:\Repos\Artemis.Plugins.Devices.LeobogHi75CPro\obj\Debug\net10.0\Artemis.Plugins.Devices.LeobogHi75CPro.csproj.AssemblyReference.cache
+C:\Repos\Artemis.Plugins.Devices.LeobogHi75CPro\obj\Debug\net10.0\Avalonia\Resources.Inputs.cache
+C:\Repos\Artemis.Plugins.Devices.LeobogHi75CPro\obj\Debug\net10.0\Artemis.Plugins.Devices.LeobogHi75CPro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos\Artemis.Plugins.Devices.LeobogHi75CPro\obj\Debug\net10.0\Artemis.Plugins.Devices.LeobogHi75CPro.AssemblyInfoInputs.cache
+C:\Repos\Artemis.Plugins.Devices.LeobogHi75CPro\obj\Debug\net10.0\Artemis.Plugins.Devices.LeobogHi75CPro.AssemblyInfo.cs
+C:\Repos\Artemis.Plugins.Devices.LeobogHi75CPro\obj\Debug\net10.0\Artemis.Plugins.Devices.LeobogHi75CPro.csproj.CoreCompileInputs.cache

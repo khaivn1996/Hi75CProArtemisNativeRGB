@@ -1,0 +1,706 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Artemis.Plugins.Devices.LeobogHi75CPro/1.0.0": {
+        "dependencies": {
+          "ArtemisRGB.Core": "1.2026.101.2"
+        },
+        "runtime": {
+          "Artemis.Plugins.Devices.LeobogHi75CPro.dll": {}
+        }
+      },
+      "ArtemisRGB.Core/1.2026.101.2": {
+        "dependencies": {
+          "DryIoc.dll": "5.4.3",
+          "GenHTTP.Core": "10.3.0",
+          "GenHTTP.Modules.Webservices": "10.3.0",
+          "HPPH.SkiaSharp": "1.0.0",
+          "HidSharp": "2.6.4",
+          "Humanizer.Core": "3.0.1",
+          "McMaster.NETCore.Plugins": "2.0.0",
+          "RGB.NET.Core": "3.1.0",
+          "RGB.NET.Layout": "3.1.0",
+          "RGB.NET.Presets": "3.1.0",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.Debug": "3.0.0",
+          "Serilog.Sinks.File": "7.0.0",
+          "SkiaSharp": "2.88.9"
+        },
+        "runtime": {
+          "lib/net10.0/Artemis.Core.dll": {
+            "assemblyVersion": "1.2026.101.2",
+            "fileVersion": "1.2026.101.2"
+          },
+          "lib/net10.0/Artemis.Storage.dll": {
+            "assemblyVersion": "1.2026.101.2",
+            "fileVersion": "1.2026.101.2"
+          }
+        }
+      },
+      "Cottle/2.1.0": {
+        "runtime": {
+          "lib/net8.0/Cottle.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        }
+      },
+      "DryIoc.dll/5.4.3": {
+        "runtime": {
+          "lib/net7.0/DryIoc.dll": {
+            "assemblyVersion": "5.4.3.0",
+            "fileVersion": "5.4.3.0"
+          }
+        }
+      },
+      "GenHTTP.Api/10.3.0": {
+        "runtime": {
+          "lib/net10.0/GenHTTP.Api.dll": {
+            "assemblyVersion": "10.3.0.0",
+            "fileVersion": "10.3.0.0"
+          }
+        }
+      },
+      "GenHTTP.Core/10.3.0": {
+        "dependencies": {
+          "GenHTTP.Api": "10.3.0",
+          "GenHTTP.Engine.Internal": "10.3.0",
+          "GenHTTP.Modules.IO": "10.3.0",
+          "GenHTTP.Modules.Layouting": "10.3.0",
+          "GenHTTP.Modules.Practices": "10.3.0"
+        }
+      },
+      "GenHTTP.Engine.Internal/10.3.0": {
+        "dependencies": {
+          "GenHTTP.Api": "10.3.0",
+          "GenHTTP.Engine.Shared": "10.3.0",
+          "GenHTTP.Modules.IO": "10.3.0",
+          "Microsoft.Extensions.ObjectPool": "10.0.1"
+        },
+        "runtime": {
+          "lib/net10.0/GenHTTP.Engine.Internal.dll": {
+            "assemblyVersion": "10.3.0.0",
+            "fileVersion": "10.3.0.0"
+          }
+        }
+      },
+      "GenHTTP.Engine.Shared/10.3.0": {
+        "dependencies": {
+          "GenHTTP.Api": "10.3.0",
+          "GenHTTP.Modules.ErrorHandling": "10.3.0"
+        },
+        "runtime": {
+          "lib/net10.0/GenHTTP.Engine.Shared.dll": {
+            "assemblyVersion": "10.3.0.0",
+            "fileVersion": "10.3.0.0"
+          }
+        }
+      },
+      "GenHTTP.Modules.ClientCaching/10.3.0": {
+        "dependencies": {
+          "GenHTTP.Api": "10.3.0",
+          "GenHTTP.Modules.IO": "10.3.0"
+        },
+        "runtime": {
+          "lib/net10.0/GenHTTP.Modules.ClientCaching.dll": {
+            "assemblyVersion": "10.3.0.0",
+            "fileVersion": "10.3.0.0"
+          }
+        }
+      },
+      "GenHTTP.Modules.Compression/10.3.0": {
+        "dependencies": {
+          "GenHTTP.Api": "10.3.0",
+          "ZstdSharp.Port": "0.8.6"
+        },
+        "runtime": {
+          "lib/net10.0/GenHTTP.Modules.Compression.dll": {
+            "assemblyVersion": "10.3.0.0",
+            "fileVersion": "10.3.0.0"
+          }
+        }
+      },
+      "GenHTTP.Modules.Conversion/10.3.0": {
+        "dependencies": {
+          "GenHTTP.Api": "10.3.0",
+          "GenHTTP.Modules.IO": "10.3.0",
+          "YamlDotNet": "16.3.0"
+        },
+        "runtime": {
+          "lib/net10.0/GenHTTP.Modules.Conversion.dll": {
+            "assemblyVersion": "10.3.0.0",
+            "fileVersion": "10.3.0.0"
+          }
+        }
+      },
+      "GenHTTP.Modules.ErrorHandling/10.3.0": {
+        "dependencies": {
+          "GenHTTP.Api": "10.3.0",
+          "GenHTTP.Modules.Conversion": "10.3.0",
+          "GenHTTP.Modules.Pages": "10.3.0"
+        },
+        "runtime": {
+          "lib/net10.0/GenHTTP.Modules.ErrorHandling.dll": {
+            "assemblyVersion": "10.3.0.0",
+            "fileVersion": "10.3.0.0"
+          }
+        }
+      },
+      "GenHTTP.Modules.IO/10.3.0": {
+        "dependencies": {
+          "GenHTTP.Api": "10.3.0"
+        },
+        "runtime": {
+          "lib/net10.0/GenHTTP.Modules.IO.dll": {
+            "assemblyVersion": "10.3.0.0",
+            "fileVersion": "10.3.0.0"
+          }
+        }
+      },
+      "GenHTTP.Modules.Layouting/10.3.0": {
+        "dependencies": {
+          "GenHTTP.Api": "10.3.0",
+          "GenHTTP.Modules.Redirects": "10.3.0"
+        },
+        "runtime": {
+          "lib/net10.0/GenHTTP.Modules.Layouting.dll": {
+            "assemblyVersion": "10.3.0.0",
+            "fileVersion": "10.3.0.0"
+          }
+        }
+      },
+      "GenHTTP.Modules.Pages/10.3.0": {
+        "dependencies": {
+          "Cottle": "2.1.0",
+          "GenHTTP.Api": "10.3.0",
+          "GenHTTP.Modules.IO": "10.3.0"
+        },
+        "runtime": {
+          "lib/net10.0/GenHTTP.Modules.Pages.dll": {
+            "assemblyVersion": "10.3.0.0",
+            "fileVersion": "10.3.0.0"
+          }
+        }
+      },
+      "GenHTTP.Modules.Practices/10.3.0": {
+        "dependencies": {
+          "GenHTTP.Api": "10.3.0",
+          "GenHTTP.Modules.ClientCaching": "10.3.0",
+          "GenHTTP.Modules.Compression": "10.3.0",
+          "GenHTTP.Modules.IO": "10.3.0",
+          "GenHTTP.Modules.Security": "10.3.0"
+        },
+        "runtime": {
+          "lib/net10.0/GenHTTP.Modules.Practices.dll": {
+            "assemblyVersion": "10.3.0.0",
+            "fileVersion": "10.3.0.0"
+          }
+        }
+      },
+      "GenHTTP.Modules.Redirects/10.3.0": {
+        "dependencies": {
+          "GenHTTP.Api": "10.3.0",
+          "GenHTTP.Modules.IO": "10.3.0"
+        },
+        "runtime": {
+          "lib/net10.0/GenHTTP.Modules.Redirects.dll": {
+            "assemblyVersion": "10.3.0.0",
+            "fileVersion": "10.3.0.0"
+          }
+        }
+      },
+      "GenHTTP.Modules.Reflection/10.3.0": {
+        "dependencies": {
+          "GenHTTP.Api": "10.3.0",
+          "GenHTTP.Modules.Conversion": "10.3.0",
+          "GenHTTP.Modules.IO": "10.3.0"
+        },
+        "runtime": {
+          "lib/net10.0/GenHTTP.Modules.Reflection.dll": {
+            "assemblyVersion": "10.3.0.0",
+            "fileVersion": "10.3.0.0"
+          }
+        }
+      },
+      "GenHTTP.Modules.Security/10.3.0": {
+        "dependencies": {
+          "GenHTTP.Api": "10.3.0",
+          "GenHTTP.Modules.IO": "10.3.0",
+          "GenHTTP.Modules.Redirects": "10.3.0"
+        },
+        "runtime": {
+          "lib/net10.0/GenHTTP.Modules.Security.dll": {
+            "assemblyVersion": "10.3.0.0",
+            "fileVersion": "10.3.0.0"
+          }
+        }
+      },
+      "GenHTTP.Modules.Webservices/10.3.0": {
+        "dependencies": {
+          "GenHTTP.Api": "10.3.0",
+          "GenHTTP.Modules.Conversion": "10.3.0",
+          "GenHTTP.Modules.IO": "10.3.0",
+          "GenHTTP.Modules.Layouting": "10.3.0",
+          "GenHTTP.Modules.Reflection": "10.3.0"
+        },
+        "runtime": {
+          "lib/net10.0/GenHTTP.Modules.Webservices.dll": {
+            "assemblyVersion": "10.3.0.0",
+            "fileVersion": "10.3.0.0"
+          }
+        }
+      },
+      "HidSharp/2.6.4": {
+        "runtime": {
+          "lib/netstandard2.0/HidSharp.dll": {
+            "assemblyVersion": "2.6.4.0",
+            "fileVersion": "2.6.4.0"
+          }
+        }
+      },
+      "HPPH/1.0.0": {
+        "runtime": {
+          "lib/net8.0/HPPH.dll": {
+            "assemblyVersion": "0.0.1.0",
+            "fileVersion": "0.0.1.0"
+          }
+        }
+      },
+      "HPPH.SkiaSharp/1.0.0": {
+        "dependencies": {
+          "HPPH": "1.0.0",
+          "SkiaSharp": "2.88.9"
+        },
+        "runtime": {
+          "lib/net8.0/HPPH.SkiaSharp.dll": {
+            "assemblyVersion": "0.0.1.0",
+            "fileVersion": "0.0.1.0"
+          }
+        }
+      },
+      "Humanizer.Core/3.0.1": {
+        "runtime": {
+          "lib/net10.0/Humanizer.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.1.28244"
+          }
+        }
+      },
+      "McMaster.NETCore.Plugins/2.0.0": {
+        "runtime": {
+          "lib/net8.0/McMaster.NETCore.Plugins.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.ObjectPool/10.0.1": {
+        "runtime": {
+          "lib/net10.0/Microsoft.Extensions.ObjectPool.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.125.57005"
+          }
+        }
+      },
+      "RGB.NET.Core/3.1.0": {
+        "runtime": {
+          "lib/net9.0/RGB.NET.Core.dll": {
+            "assemblyVersion": "0.0.1.0",
+            "fileVersion": "0.0.1.0"
+          }
+        }
+      },
+      "RGB.NET.Layout/3.1.0": {
+        "dependencies": {
+          "RGB.NET.Core": "3.1.0"
+        },
+        "runtime": {
+          "lib/net9.0/RGB.NET.Layout.dll": {
+            "assemblyVersion": "0.0.1.0",
+            "fileVersion": "0.0.1.0"
+          }
+        }
+      },
+      "RGB.NET.Presets/3.1.0": {
+        "dependencies": {
+          "HPPH": "1.0.0",
+          "RGB.NET.Core": "3.1.0"
+        },
+        "runtime": {
+          "lib/net9.0/RGB.NET.Presets.dll": {
+            "assemblyVersion": "0.0.1.0",
+            "fileVersion": "0.0.1.0"
+          }
+        }
+      },
+      "Serilog/4.2.0": {
+        "runtime": {
+          "lib/net9.0/Serilog.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.0.0"
+          }
+        }
+      },
+      "Serilog.Sinks.Console/6.1.1": {
+        "dependencies": {
+          "Serilog": "4.2.0"
+        },
+        "runtime": {
+          "lib/net8.0/Serilog.Sinks.Console.dll": {
+            "assemblyVersion": "6.1.1.0",
+            "fileVersion": "6.1.1.0"
+          }
+        }
+      },
+      "Serilog.Sinks.Debug/3.0.0": {
+        "dependencies": {
+          "Serilog": "4.2.0"
+        },
+        "runtime": {
+          "lib/net8.0/Serilog.Sinks.Debug.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "Serilog.Sinks.File/7.0.0": {
+        "dependencies": {
+          "Serilog": "4.2.0"
+        },
+        "runtime": {
+          "lib/net9.0/Serilog.Sinks.File.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.0.0"
+          }
+        }
+      },
+      "SkiaSharp/2.88.9": {
+        "dependencies": {
+          "SkiaSharp.NativeAssets.Win32": "2.88.9",
+          "SkiaSharp.NativeAssets.macOS": "2.88.9"
+        },
+        "runtime": {
+          "lib/net6.0/SkiaSharp.dll": {
+            "assemblyVersion": "2.88.0.0",
+            "fileVersion": "2.88.9.0"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.macOS/2.88.9": {
+        "runtimeTargets": {
+          "runtimes/osx/native/libSkiaSharp.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.Win32/2.88.9": {
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/libSkiaSharp.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/libSkiaSharp.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/libSkiaSharp.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "YamlDotNet/16.3.0": {
+        "runtime": {
+          "lib/net8.0/YamlDotNet.dll": {
+            "assemblyVersion": "16.0.0.0",
+            "fileVersion": "16.3.0.0"
+          }
+        }
+      },
+      "ZstdSharp.Port/0.8.6": {
+        "runtime": {
+          "lib/net9.0/ZstdSharp.dll": {
+            "assemblyVersion": "0.8.6.0",
+            "fileVersion": "0.8.6.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Artemis.Plugins.Devices.LeobogHi75CPro/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ArtemisRGB.Core/1.2026.101.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-f+vqaCdSsk81kkJskyimEJv88aMqrmIf9lJyFaF2TILSKTNopTEmyH2ZWmNXUK/pPqb+r24/1zzFCF8ybaXp9w==",
+      "path": "artemisrgb.core/1.2026.101.2",
+      "hashPath": "artemisrgb.core.1.2026.101.2.nupkg.sha512"
+    },
+    "Cottle/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-d49r02/objSu6g6QuKLZtnh2CJOWv2cq6h1v3A5mr3/8MsNST6BYhnDT6Xzum+LMx8fEbU1chF0XYNY4Bgi+7Q==",
+      "path": "cottle/2.1.0",
+      "hashPath": "cottle.2.1.0.nupkg.sha512"
+    },
+    "DryIoc.dll/5.4.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yhXOG3SOxeWYxBAWskNRDD8fzw5hriEawv4VN4WKaFHOuubiop4kxe2rkWTEyCnTgRVgxVUSQCDBBkZqwPm1iQ==",
+      "path": "dryioc.dll/5.4.3",
+      "hashPath": "dryioc.dll.5.4.3.nupkg.sha512"
+    },
+    "GenHTTP.Api/10.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cZoDwpqwCuMWbp76NZDfn1bonPcbKEOb5fWqu+uuZyUE1JW9VeXvbS8+UpI2jNWmv6GbpZs0VactwXKq9Ja3bw==",
+      "path": "genhttp.api/10.3.0",
+      "hashPath": "genhttp.api.10.3.0.nupkg.sha512"
+    },
+    "GenHTTP.Core/10.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Sb5FVV+KVyyz2rpFwjsY4ZUQhJIiiv1+7yz8UtN6OKZl7jZB05Zp6mR930VfSuk0gmz//YkJHQk8EZ9H/QaVDg==",
+      "path": "genhttp.core/10.3.0",
+      "hashPath": "genhttp.core.10.3.0.nupkg.sha512"
+    },
+    "GenHTTP.Engine.Internal/10.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zyZLEnyCxb116NRY77iOjAL99PSw/hUS2FPqOT7jlGIDtQCEdeSn1/PxL0nJH9LkXiSCzfX6aNVQidgV4tS2bw==",
+      "path": "genhttp.engine.internal/10.3.0",
+      "hashPath": "genhttp.engine.internal.10.3.0.nupkg.sha512"
+    },
+    "GenHTTP.Engine.Shared/10.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-djF8BMJouC/zxNs6hFDa4kixV1l3nmxFRYqXAQU8sKumt+Z9pjoDASTiaCiNjiWz4rvWhF1N8yZ5x4bc1BWTlQ==",
+      "path": "genhttp.engine.shared/10.3.0",
+      "hashPath": "genhttp.engine.shared.10.3.0.nupkg.sha512"
+    },
+    "GenHTTP.Modules.ClientCaching/10.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NuPFlkVMu5af2au3tTd0//KDYB4V4KUfYtCgxjofvE7/tJ3bh63L/1Yx45ZRcmy7a9Jq1UGHJuDzdvPPbTHcWw==",
+      "path": "genhttp.modules.clientcaching/10.3.0",
+      "hashPath": "genhttp.modules.clientcaching.10.3.0.nupkg.sha512"
+    },
+    "GenHTTP.Modules.Compression/10.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-klllspMtPokAjMyT5OrApRE0ahNY5WhppqpfRU7V5JXARVRCO1dMLanSst+421l4y9FHhDE69Mzr3lMbcURV1w==",
+      "path": "genhttp.modules.compression/10.3.0",
+      "hashPath": "genhttp.modules.compression.10.3.0.nupkg.sha512"
+    },
+    "GenHTTP.Modules.Conversion/10.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BFDnrQAnDBnrM8S1iRqiAh4JumoHIIGf6KfkijjeVhYeGvJQmo86O8Nvn0XmX9c0Pq38reIWPBdZym8V/3LJ1g==",
+      "path": "genhttp.modules.conversion/10.3.0",
+      "hashPath": "genhttp.modules.conversion.10.3.0.nupkg.sha512"
+    },
+    "GenHTTP.Modules.ErrorHandling/10.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-P4B5Z8/zd9UrLfkWhugMs3aBxAvLH8zk0znd/vDMbAR9Tka1ziitVbc3P5YgLKP2H8J68t1Pl4ZZDdvQBK4FcA==",
+      "path": "genhttp.modules.errorhandling/10.3.0",
+      "hashPath": "genhttp.modules.errorhandling.10.3.0.nupkg.sha512"
+    },
+    "GenHTTP.Modules.IO/10.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-J0RvLcsl855TGmSIWom5h5yI0tMSx36j20nqElKt6NkByMiQgcUT71FvS+SEN6Gcxx10xoQJqIDVjBfq1SEEGQ==",
+      "path": "genhttp.modules.io/10.3.0",
+      "hashPath": "genhttp.modules.io.10.3.0.nupkg.sha512"
+    },
+    "GenHTTP.Modules.Layouting/10.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lkbniG0BINp67gOo73QA+P+xzeFd70P4frWZ/t/Uyt4Y8cfUt3iFVTU5Di//uGOxKVzU4J0EFSm9P8xfLXtHNA==",
+      "path": "genhttp.modules.layouting/10.3.0",
+      "hashPath": "genhttp.modules.layouting.10.3.0.nupkg.sha512"
+    },
+    "GenHTTP.Modules.Pages/10.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MUYGNV16O+p5YoZ+1WzKceZovXTw1s1QO2d/Eva6FtT1kuN6wjQrTWXgYqnqt8tHh/p1GBe8OImHjrstOdRDjw==",
+      "path": "genhttp.modules.pages/10.3.0",
+      "hashPath": "genhttp.modules.pages.10.3.0.nupkg.sha512"
+    },
+    "GenHTTP.Modules.Practices/10.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cIROTISC3RFed/DtQQ7ZJtRtdcNL3Owk9cukbeAXJ6FyBULtfkLT+OwYldFmS9dbIYYyc2sBl08JuAVuNZ7wjg==",
+      "path": "genhttp.modules.practices/10.3.0",
+      "hashPath": "genhttp.modules.practices.10.3.0.nupkg.sha512"
+    },
+    "GenHTTP.Modules.Redirects/10.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XN8C+EH9HqLX1k9cTz9fcKGiKuisHIHUp9BhE/+vGvkMbm1qecPFhsZXCtLe0S3cJjRTh8HLXmEdpFbva+Llvg==",
+      "path": "genhttp.modules.redirects/10.3.0",
+      "hashPath": "genhttp.modules.redirects.10.3.0.nupkg.sha512"
+    },
+    "GenHTTP.Modules.Reflection/10.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-d/oL+2WlRRFOGJdE6Dnj+z41Fnd1k34QCntjPKYlJpSXcC3rowwyhHNK+ygYmEm5V69/W0yOCOOHal17QCTNPA==",
+      "path": "genhttp.modules.reflection/10.3.0",
+      "hashPath": "genhttp.modules.reflection.10.3.0.nupkg.sha512"
+    },
+    "GenHTTP.Modules.Security/10.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-66J3z8VzmGB8qsIRI3cMiPAF2LkZNzZBlQDqYq2ZAJAxWj2pwDKzB7LWWt1U3Xo2l5TDemFsAIrnUXjGx+dLrg==",
+      "path": "genhttp.modules.security/10.3.0",
+      "hashPath": "genhttp.modules.security.10.3.0.nupkg.sha512"
+    },
+    "GenHTTP.Modules.Webservices/10.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-A+Pg+nhWcwE87GDpZIMGR1gSbn+fS6FR2AB5cShCMNPPAXTrflmfKaFbKjhy+pSNaif8vu+BUGMKKd52r44sBg==",
+      "path": "genhttp.modules.webservices/10.3.0",
+      "hashPath": "genhttp.modules.webservices.10.3.0.nupkg.sha512"
+    },
+    "HidSharp/2.6.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UcGvtnXFcatwHBXr+ei8GEXvg//wjGmDGQ6Xvb+7M4vHjURAhSLIJ+dSZv0BnAhQEpNlH8G4P7JxYnMH8Aph4g==",
+      "path": "hidsharp/2.6.4",
+      "hashPath": "hidsharp.2.6.4.nupkg.sha512"
+    },
+    "HPPH/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XW4/RrnvolGGJm052bkutBPy1LlolW4rhMkmf2eXWaMGxCuTUfhAsewmgQPF7g50JSS7gu/n73rAUzcVW1vbfA==",
+      "path": "hpph/1.0.0",
+      "hashPath": "hpph.1.0.0.nupkg.sha512"
+    },
+    "HPPH.SkiaSharp/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tNqHOOIYdbM54cY0usdJ7fRboWS8qghoSZd3TQosQpZcxFJLi03QOEbliEE4sryWOX0WPIt3GV5LNxymjq5LkQ==",
+      "path": "hpph.skiasharp/1.0.0",
+      "hashPath": "hpph.skiasharp.1.0.0.nupkg.sha512"
+    },
+    "Humanizer.Core/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-scB3+KcxNmEjZK5V8rKCW2gIiL8m8KH91w14FuuExyhi9xTyAJ+jr+DDxGdy12mHmioe2uvjxTfMgM7WmSUFlw==",
+      "path": "humanizer.core/3.0.1",
+      "hashPath": "humanizer.core.3.0.1.nupkg.sha512"
+    },
+    "McMaster.NETCore.Plugins/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pmmrI3qPE53xEJEcg575jQeDNPzMWfNJO8/SASlB9PLPrGVrsyVNFRrvfo+3BzcbQxfUBF1//gTOiJ82dOTlTw==",
+      "path": "mcmaster.netcore.plugins/2.0.0",
+      "hashPath": "mcmaster.netcore.plugins.2.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.ObjectPool/10.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HqAEbtoAhgvH53c54IV5e4vQ60PYvl7Z/WIHsbet+UGGE7n+7dwVNXw1mb9LZlWbsxnupCevvtgIne5P//ZKpQ==",
+      "path": "microsoft.extensions.objectpool/10.0.1",
+      "hashPath": "microsoft.extensions.objectpool.10.0.1.nupkg.sha512"
+    },
+    "RGB.NET.Core/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pFdRuqtZ9ZzuO/LgBLJsxC5tFhlMVufBEh21FoC3gUENAY02fEG1HiEcXSwkO3o9DOTtbUvraeCDB496Hn6rEQ==",
+      "path": "rgb.net.core/3.1.0",
+      "hashPath": "rgb.net.core.3.1.0.nupkg.sha512"
+    },
+    "RGB.NET.Layout/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9g11oCYNhPT2Xz+JIhzuVJplbYNLsRy673FM/pHrWRZdTdPcQHHnfY0X8N7kQhsA8lL1o3zdo62Kmkexp8ctkQ==",
+      "path": "rgb.net.layout/3.1.0",
+      "hashPath": "rgb.net.layout.3.1.0.nupkg.sha512"
+    },
+    "RGB.NET.Presets/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wYp9hwQ2X1wKkxYjy9EqputOHVlWfRLIuq+vODTSjhoV35g5dbEQSuoRe4Qa64CatmJMgNqaSIFw9DQQ4er8Jw==",
+      "path": "rgb.net.presets/3.1.0",
+      "hashPath": "rgb.net.presets.3.1.0.nupkg.sha512"
+    },
+    "Serilog/4.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gmoWVOvKgbME8TYR+gwMf7osROiWAURterc6Rt2dQyX7wtjZYpqFiA/pY6ztjGQKKV62GGCyOcmtP1UKMHgSmA==",
+      "path": "serilog/4.2.0",
+      "hashPath": "serilog.4.2.0.nupkg.sha512"
+    },
+    "Serilog.Sinks.Console/6.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8jbqgjUyZlfCuSTaJk6lOca465OndqOz3KZP6Cryt/IqZYybyBu7GP0fE/AXBzrrQB3EBmQntBFAvMVz1COvAA==",
+      "path": "serilog.sinks.console/6.1.1",
+      "hashPath": "serilog.sinks.console.6.1.1.nupkg.sha512"
+    },
+    "Serilog.Sinks.Debug/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4BzXcdrgRX7wde9PmHuYd9U6YqycCC28hhpKonK7hx0wb19eiuRj16fPcPSVp0o/Y1ipJuNLYQ00R3q2Zs8FDA==",
+      "path": "serilog.sinks.debug/3.0.0",
+      "hashPath": "serilog.sinks.debug.3.0.0.nupkg.sha512"
+    },
+    "Serilog.Sinks.File/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fKL7mXv7qaiNBUC71ssvn/dU0k9t0o45+qm2XgKAlSt19xF+ijjxyA3R6HmCgfKEKwfcfkwWjayuQtRueZFkYw==",
+      "path": "serilog.sinks.file/7.0.0",
+      "hashPath": "serilog.sinks.file.7.0.0.nupkg.sha512"
+    },
+    "SkiaSharp/2.88.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3MD5VHjXXieSHCleRLuaTXmL2pD0mB7CcOB1x2kA1I4bhptf4e3R27iM93264ZYuAq6mkUyX5XbcxnZvMJYc1Q==",
+      "path": "skiasharp/2.88.9",
+      "hashPath": "skiasharp.2.88.9.nupkg.sha512"
+    },
+    "SkiaSharp.NativeAssets.macOS/2.88.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Nv5spmKc4505Ep7oUoJ5vp3KweFpeNqxpyGDWyeEPTX2uR6S6syXIm3gj75dM0YJz7NPvcix48mR5laqs8dPuA==",
+      "path": "skiasharp.nativeassets.macos/2.88.9",
+      "hashPath": "skiasharp.nativeassets.macos.2.88.9.nupkg.sha512"
+    },
+    "SkiaSharp.NativeAssets.Win32/2.88.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wb2kYgU7iy84nQLYZwMeJXixvK++GoIuECjU4ECaUKNuflyRlJKyiRhN1MAHswvlvzuvkrjRWlK0Za6+kYQK7w==",
+      "path": "skiasharp.nativeassets.win32/2.88.9",
+      "hashPath": "skiasharp.nativeassets.win32.2.88.9.nupkg.sha512"
+    },
+    "YamlDotNet/16.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SgMOdxbz8X65z8hraIs6hOEdnkH6hESTAIUa7viEngHOYaH+6q5XJmwr1+yb9vJpNQ19hCQY69xbFsLtXpobQA==",
+      "path": "yamldotnet/16.3.0",
+      "hashPath": "yamldotnet.16.3.0.nupkg.sha512"
+    },
+    "ZstdSharp.Port/0.8.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iP4jVLQoQmUjMU88g1WObiNr6YKZGvh4aOXn3yOJsHqZsflwRsxZPcIBvNXgjXO3vQKSLctXGLTpcBPLnWPS8A==",
+      "path": "zstdsharp.port/0.8.6",
+      "hashPath": "zstdsharp.port.0.8.6.nupkg.sha512"
+    }
+  }
+}

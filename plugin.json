@@ -1,0 +1,15 @@
+{
+  "Guid": "A6A5DF6E-13DB-43AA-83EB-30199CE265E7",
+  "Name": "LEOBOG Hi75C Pro",
+  "Description": "Native wired USB RGB support for the LEOBOG Hi75C Pro keyboard.",
+  "Author": "KhaiIT",
+  "Website": "",
+  "Repository": "https://github.com/khaivn1996/Hi75CProArtemisNativeRGB.git",
+  "Icon": "QuestionMark",
+  "Version": "1.0.0.0",
+  "Main": "Artemis.Plugins.Devices.LeobogHi75CPro.dll",
+  "AutoEnableProperties": true,
+  "RequiresAdmin": false,
+  "Platforms": "Windows",
+  "Api": "1.0.0"
+}
